@@ -24,8 +24,8 @@ DEFAULT_CONFIG = {
 
     # Exploration settings
     'eps_start': 1.0,
-    'eps_end': 0.01,
-    'eps_decay': 0.995,
+    'eps_end': 0.05,
+    'eps_decay': 0.999,
 
     # Algorithm settings
     'dqn': False,   # True for DQN, False for DDQN
